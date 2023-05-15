@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const mongoose = require("mongoose");
+;
 
 //Slugs are used in web development and search engine optimization (SEO) to create more readable and user-friendly URLs.
 
@@ -38,7 +38,7 @@ const ProductSchema = new mongoose.Schema(
     },
  
 
-    imageUrls: {
+    images: {
       type:[String],
     },
     featured: {

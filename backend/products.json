@@ -2,68 +2,104 @@
     {
         "name": "BassBeats Pro",
         "description": "Experience deep bass and rich audio with the BassBeats Pro earphones. These premium earphones feature advanced drivers and noise-canceling technology, delivering superior sound quality. The ergonomic design ensures a secure and comfortable fit. With wireless connectivity and long battery life, the BassBeats Pro earphones are perfect for immersive music experiences.",
+        "InStock": 3,
         "price": 79.99,
-       
-        "images":["https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144578/earphones_a_1_i4bm6v.webp","https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144578/earphones_a_2_vjnazn.webp", "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_a_3_bdbufo.webp", "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_a_4_kybivi.webp"],
-        "category": "earphones"
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144578/earphones_a_1_i4bm6v.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144578/earphones_a_2_vjnazn.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_a_3_bdbufo.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_a_4_kybivi.webp"
+        ],
+        "category": "Earphones"
     },
-  
     {
         "name": "SoundPods 200",
         "description": "The SoundPods 200 earphones offer high-quality audio in a compact and lightweight design. With their ergonomic ear tips and noise isolation technology, they provide a comfortable and immersive listening experience. These earphones feature Bluetooth 5.0 connectivity for seamless wireless pairing with your devices. The SoundPods 200 are perfect for music enthusiasts on the go.",
+        "InStock": 3,
         "price": 39.99,
-       
-        "images":["https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_b_1_xrkw7n.webp","https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/earphones_b_2_kclfwv.webp","https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/earphones_b_3_miles3.webp", "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144583/earphones_b_4_nvqs8l.webp"],
-        "category": "earphones"
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/earphones_b_1_xrkw7n.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/earphones_b_2_kclfwv.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/earphones_b_3_miles3.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144583/earphones_b_4_nvqs8l.webp"
+        ],
+        "category": "Earphones"
     },
     {
         "name": "AirWave X1",
         "description": "Introducing the AirWave X1 earphones, designed for active individuals who enjoy their favorite tunes during workouts. These sweat-resistant earphones provide a secure fit and excellent sound quality. With built-in controls and a long-lasting battery, the AirWave X1 ensures a hassle-free and enjoyable exercise session.",
+        "InStock": 3,
         "price": 49.99,
-        "images":[
+        "images": [
             "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144585/earphones_c_1_vbf1xq.webp",
             "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144585/earphones_c_2_svrock.webp",
             "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144582/earphones_c_3_sj4i18.webp",
             "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/earphones_c_4_dphnmf.webp"
         ]
-
-      }
-,      
+    },
     {
         "name": "SoundSync 500",
         "description": "Immerse yourself in premium sound with the SoundSync 500 headphones. Featuring powerful drivers and active noise cancellation, these headphones deliver an unparalleled listening experience. The comfortable over-ear design and adjustable headband ensure a perfect fit. With Bluetooth connectivity and long battery life, the SoundSync 500 is your ideal companion for music and entertainment.",
-        "images":[],
-        "category": "headphones",
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/headphones_b_1_gja2gx.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144585/headphones_b_2_xqnigy.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144587/headphones_b_3_s4qksl.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144585/headphones_b_4_tjy1vh.webp"
+        ],
+        "category": "Headphones",
+        "InStock": 3,
         "price": 129.99
     },
     {
         "name": "ProAudio Elite",
         "description": "Step into the world of professional audio with the ProAudio Elite headphones. Designed for audiophiles and music producers, these headphones offer studio-grade sound quality and accurate reproduction. The closed-back design minimizes external noise, while the plush ear cushions provide exceptional comfort. The ProAudio Elite headphones are the ultimate choice for discerning music enthusiasts.",
-        "images":["https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144588/headphones_a_1_mtasip.webp",
-    "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144586/headphones_a_2_p44jug.webp",
-""],
-        "category": "headphones",
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144588/headphones_a_1_mtasip.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144586/headphones_a_2_p44jug.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144579/headphones_a_3_ezpg0m.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144583/headphones_a_4_fooifd.webp"
+        ],
+        "category": "Headphones",
+        "InStock": 3,
         "price": 249.99
     },
     {
         "name": "UltraBeats 3000",
         "description": "Experience the power of deep bass and stunning clarity with the UltraBeats 3000 headphones. Equipped with large drivers and enhanced sound technology, these headphones deliver a premium audio experience. The foldable design and cushioned ear cups ensure comfort and portability. With their stylish look and exceptional sound, the UltraBeats 3000 headphones are perfect for music lovers.",
-        "images":[],
-        "category": "headphones",
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144587/headphones_c_1_vj2ciy.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144584/headphones_c_2_lq39ec.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144586/headphones_c_3_jwydkj.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144582/headphones_c_4_fwasg6.webp"
+        ],
+        "category": "Headphones",
+        "InStock": 3,
         "price": 89.99
     },
     {
         "name": "SonicWave X10",
         "description": "Introducing the SonicWave X10 speaker, designed to fill your space with rich and powerful sound. With its sleek design and premium build quality, this speaker complements any interior. Connect your devices wirelessly via Bluetooth or use the built-in AUX port. The SonicWave X10 speaker is perfect for parties, gatherings, or simply enjoying your favorite music at home.",
-        "images":[],
-        "category": "speakers",
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144587/speaker1_fgzfpd.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144591/speaker2_dmgqog.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144581/speaker3_bbuuz9.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144582/speaker4_i4uz7k.webp"
+        ],
+        "category": "Speakers",
+        "InStock": 3,
         "price": 149.99
     },
     {
         "name": "TimeMaster 2000",
         "description": "Stay stylish and connected with the TimeMaster 2000 smartwatch. Featuring a sleek design and a vibrant touchscreen display, this smartwatch keeps you informed and organized throughout the day. It offers fitness tracking, heart rate monitoring, notifications, and more. With its durable construction and long battery life, the TimeMaster 2000 is the perfect blend of fashion and functionality.",
-        "images":[],
-        "category": "watches",
+        "images": [
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144580/watch_1_h8vfim.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144586/watch_2_genwx5.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144583/watch_3_eeajhu.webp",
+            "https://res.cloudinary.com/dx1lyzcdb/image/upload/v1684144592/watch_4_jkv0zg.webp"
+        ],
+        "category": "Watches",
+        "InStock": 3,
         "price": 199.99
     }
 ]

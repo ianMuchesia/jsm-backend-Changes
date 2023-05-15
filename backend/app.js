@@ -22,7 +22,7 @@ const connectDB = require('./database/connectDB')
 
 //routers
 
-
+const productRouter = require('./routes/productRouter')
 
 //middleware
 const notFoundMiddleWare = require('./middleware/not-found')
@@ -36,7 +36,7 @@ app.set('trust proxy', 1);
   })
 ); */
 app.use(helmet());
-app.use(cors({ origin: process.env.CLIENT_SIDE_URL, credentials: true}));
+app.use(cors());
 app.use(xss());
 app.use(mongoSanitize());
 
@@ -48,6 +48,7 @@ app.use(express.json())
 
 
 //routes
+app.use('/api/v1/products', productRouter)
 
 
 app.use(errorHandlerMiddleWare)

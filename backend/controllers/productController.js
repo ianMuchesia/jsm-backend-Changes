@@ -1,7 +1,6 @@
 const { StatusCodes } = require("http-status-codes");
-const { BadRequestError } = require("../errors");
+const { BadRequestError, NotFoundError } = require("../errors");
 const Product = require("../models/Product");
-const { createToken, attachCookiesToResponse } = require("../utils");
 const cloudinary = require("cloudinary").v2;
 
 // Configuration
@@ -41,3 +40,46 @@ const createProduct = async(req , res)=>{
       res.status(StatusCodes.CREATED).json({success:true , product})
 
 }
+
+
+const getSingleProduct = async(req , res)=>{
+  const { productID} = req.params
+
+ const product = await Product.findOne({_id:productID})
+
+ if(!product){
+  throw new NotFoundError("Product with id:{productID} not found")
+ }
+
+ res.status(StatusCodes.OK).json({success: true , product})
+}
+
+
+const getAllProducts = async (req, res) => {
+  const { category, search, sort } = req.query;
+
+  const queryObject = {};
+
+  if (category) {
+    queryObject.category = category;
+  }
+
+  if (search) {
+    queryObject.name = { $regex: search, $options: "i" };
+  }
+
+  let result = Product.find(queryObject)
+
+  if (sort) {
+    const sortArray = sort.split(",").join(" ");
+    result = result.sort(sortArray);
+  } else {
+    result = result.sort("name");
+  }
+
+  const products = await result;
+
+  res.status(StatusCodes.OK).json({ success: true, products });
+};
+
+module.exports = {createProduct , getAllProducts , getSingleProduct}
